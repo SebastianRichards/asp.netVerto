@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<VertoTest.Models.ContentModel>
+@{
+    ViewBag.Title = "Api";
+    
+}
+
+<h2>Api</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div>
+    <div>
+        @Html.DisplayNameFor(model => model.Text)
+    </div>
+
+    @foreach (var item in Model)
+{
+            <div>@Html.DisplayFor(modelItem => item.Text)</div>
+}
+</div>

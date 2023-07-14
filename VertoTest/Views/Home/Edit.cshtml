@@ -1,0 +1,65 @@
+﻿@page
+
+
+@model VertoTest.Models.ContentModel
+
+@{
+    //ContentModel content = TempData["contentTemp"] as ContentModel;
+}
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div class="grid-x">
+
+
+
+
+
+    @foreach (var content in ViewBag.contents)
+    {
+        if (content.Id == ViewBag.idNumber)
+        {
+            <div class="small-12 center-edit">
+                <div class="edit-image"><img class="edit-image" src="@content.PhotoName" /></div>
+            </div>
+            <div class="small-12 center-edit">
+                <form asp-action="submitChanges" asp-controller="home" method="post" enctype="multipart/form-data">
+                    <div >
+
+                        <input class="file-upload" type="file" id="file" name="file" value=".">
+                        <div>Text:</div>
+                        <input value="@content.Text" name="text" placeholder="enter text" class="text-box-edit" />
+                        <input type="hidden" name="id" value="@content.Id" />
+
+
+                        @if (content.Text2 != ".")
+                        {
+                            <div>Bold-Text:</div>
+                            <input value="@content.Text2" name="text2" placeholder="enter text" class="text-box-edit" />
+                        }
+                        else
+                        {
+                            <input type="hidden" name="text2" value="@content.Text2" />}
+
+                    </div>
+                    <button class="submit-button" type="submit">Submit</button>
+                    
+                </form>
+            </div>
+
+
+
+
+
+        }
+    }
+
+
+
+</div>
+
+
+
+
+
+
+

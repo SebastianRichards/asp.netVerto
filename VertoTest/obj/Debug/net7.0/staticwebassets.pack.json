@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/obj/Debug/net7.0/scopedcss/projectbundle/VertoTest.bundle.scp.css",
+      "PackagePath": "staticwebassets/VertoTest.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/.DS_Store",
+      "PackagePath": "staticwebassets/static/.DS_Store"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/25832e94-7977-4a97-861c-5d2bf07966c7_birdbanner1.jpeg",
+      "PackagePath": "staticwebassets/static/25832e94-7977-4a97-861c-5d2bf07966c7_birdbanner1.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/73e0a7bb-92b3-4c14-b6d5-1f26143863df_products-image.jpeg",
+      "PackagePath": "staticwebassets/static/73e0a7bb-92b3-4c14-b6d5-1f26143863df_products-image.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/bin-1.jpeg",
+      "PackagePath": "staticwebassets/static/bin-1.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/bin-2.jpeg",
+      "PackagePath": "staticwebassets/static/bin-2.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/bin-2.webp",
+      "PackagePath": "staticwebassets/static/bin-2.webp"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/bin-3.jpeg",
+      "PackagePath": "staticwebassets/static/bin-3.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/bin-4.jpeg",
+      "PackagePath": "staticwebassets/static/bin-4.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/bin-4.webp",
+      "PackagePath": "staticwebassets/static/bin-4.webp"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/birdbanner1.jpeg",
+      "PackagePath": "staticwebassets/static/birdbanner1.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/birdbanner2.jpeg",
+      "PackagePath": "staticwebassets/static/birdbanner2.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/birdbanner3.png",
+      "PackagePath": "staticwebassets/static/birdbanner3.png"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/c23070de-6fb1-4ff0-a58f-1f911eea8d5b_row2image2.png",
+      "PackagePath": "staticwebassets/static/c23070de-6fb1-4ff0-a58f-1f911eea8d5b_row2image2.png"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/d20b0adb-af57-4b32-be9d-54b82dae3421_25832e94-7977-4a97-861c-5d2bf07966c7_birdbanner1.jpeg",
+      "PackagePath": "staticwebassets/static/d20b0adb-af57-4b32-be9d-54b82dae3421_25832e94-7977-4a97-861c-5d2bf07966c7_birdbanner1.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/e06a7a90-8547-4716-a072-e27a24894150_products-image.jpeg",
+      "PackagePath": "staticwebassets/static/e06a7a90-8547-4716-a072-e27a24894150_products-image.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/fb.png",
+      "PackagePath": "staticwebassets/static/fb.png"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/field-events-image.jpeg",
+      "PackagePath": "staticwebassets/static/field-events-image.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/gallery-image.jpeg",
+      "PackagePath": "staticwebassets/static/gallery-image.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/google.png",
+      "PackagePath": "staticwebassets/static/google.png"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/latest-news-image.jpeg",
+      "PackagePath": "staticwebassets/static/latest-news-image.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/linked.png",
+      "PackagePath": "staticwebassets/static/linked.png"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/opticronLink.png",
+      "PackagePath": "staticwebassets/static/opticronLink.png"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/products-image.jpeg",
+      "PackagePath": "staticwebassets/static/products-image.jpeg"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/row2image1.png",
+      "PackagePath": "staticwebassets/static/row2image1.png"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/row2image2.png",
+      "PackagePath": "staticwebassets/static/row2image2.png"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/row2image3.png",
+      "PackagePath": "staticwebassets/static/row2image3.png"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/twitter.png",
+      "PackagePath": "staticwebassets/static/twitter.png"
+    },
+    {
+      "Id": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/wwwroot/static/you.png",
+      "PackagePath": "staticwebassets/static/you.png"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.VertoTest.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.VertoTest.props",
+      "PackagePath": "build\\VertoTest.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.VertoTest.props",
+      "PackagePath": "buildMultiTargeting\\VertoTest.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.VertoTest.props",
+      "PackagePath": "buildTransitive\\VertoTest.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

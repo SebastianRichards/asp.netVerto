@@ -1,0 +1,304 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+
+@model VertoTest.Models.ContentModel
+
+
+
+@{
+    ViewData["Title"] = "Admin";
+}
+
+@{
+    int uniqueIdentifier = 0; // Declare the variable outside the loop
+}
+
+<div class="text-center">
+    
+    <section>
+        <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">&#8701;</button>
+            <button class="carousel-button next" data-carousel-button="next">&#8702;</button>
+            <ul data-slides>
+                <li class="slide" data-active>
+                    <img src="/../static/birdbanner3.png" alt="img1" />
+                </li>
+                <li class="slide">
+                    <img src="/../static/birdbanner2.jpeg" alt="img2" />
+                </li>
+                <li class="slide">
+                    <img src="/../static/birdbanner1.jpeg" alt="img3" />
+                </li>
+
+
+            </ul>
+        </div>
+    </section>
+
+    <div class="grid-x">
+        <div class="grid-x grid-container home-grid-one small-12 grid-one-recenter">
+            <div class="small-12 medium-6 large-3 row1">
+                <div class="home-container-title">New Products</div>
+
+
+                @foreach (var content in ViewBag.contents)
+                {
+                    if (content.Name == "text-box-1")
+                    {
+                        <div class="image-row-1">
+                            <img class="image-row-1" src=@content.PhotoName />
+                            
+                        </div>
+                        <p>@content.Text</p>
+                        uniqueIdentifier = content.Id;
+                    }
+                }
+
+
+                <button class="home-button" type="button">New Products</button>
+                <form method="post" action="/home/AdminEdit">
+                    <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
+                    <button class="edit-button" type="submit">Edit</button>
+                </form>
+
+            </div>
+
+            <div class="small-12 medium-6 large-3 row1">
+                <div class="home-container-title">Field Events</div>
+                
+                @foreach (var content in ViewBag.contents)
+                {
+                    if (content.Name == "text-box-2")
+                    {
+                        <div class="image-row-1">
+                            <img class="image-row-1" src=@content.PhotoName />
+
+                        </div>
+                        uniqueIdentifier = content.Id;
+                        <p>@content.Text</p>
+                        }
+                }
+                <button class="home-button" type="button">View Events</button>
+                <form method="post" action="/home/AdminEdit">
+                    <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
+                    <button class="edit-button" type="submit">Edit</button>
+                </form>
+            </div>
+            <div class="small-12 medium-6 large-3 row1">
+                <div class="home-container-title">Latest News</div>
+                
+                @foreach (var content in ViewBag.contents)
+                {
+                    if (content.Name == "text-box-3")
+                    {
+
+                        <div class="image-row-1">
+                            <img class="image-row-1" src=@content.PhotoName />
+
+                        </div>
+                        uniqueIdentifier = content.Id;
+                        <p>@content.Text</p>
+                        }
+                }
+                <button class="home-button" type="button">Read Article</button>
+                <form method="post" action="/home/AdminEdit">
+                    <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
+                    <button class="edit-button" type="submit">Edit</button>
+                </form>
+            </div>
+            <div class="small-12 medium-6 large-3 row1">
+                <div class="home-container-title">Gallery</div>
+                
+                @foreach (var content in ViewBag.contents)
+                {
+                    if (content.Name == "text-box-4")
+                    {
+                        <div class="image-row-1">
+                            <img class="image-row-1" src=@content.PhotoName />
+
+                        </div>
+                        uniqueIdentifier = content.Id;
+                        <p>@content.Text</p>}
+                }
+                <button class="home-button" type="button">View Gallery</button>
+                <form method="post" action="/home/AdminEdit">
+                    <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
+                    <button class="edit-button" type="submit">Edit</button>
+                </form>
+            </div>
+
+
+        </div>
+
+
+        <div class="small-12 home-grid-two grid-container home-grid-one">
+            <p class="special-offer-text">Special Offers</p>
+            <div class="grid-x text-image-box">
+                <div class="large-4 medium-12 image-center">
+                    @foreach (var content in ViewBag.contents)
+                    {
+                        if (content.Name == "text-box-5")
+                        {
+                            uniqueIdentifier = content.Id;
+                            <img src=@content.PhotoName />
+                            <div class="row2-image-text">
+                                <p class="row2-text">@content.Text</p>
+                                <p class="row2-text-bold">@content.Text2</p>
+
+                                <div class="row2-admin-edit">
+                                    <form method="post" action="/home/AdminEdit">
+                                        <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
+                                        <button class="edit-row-2" type="submit">Edit</button>
+                                    </form>
+                                </div>
+                            </div>
+
+
+                        }
+
+                    }
+                </div>
+                <div class="large-4 medium-12 image-center">
+                    @foreach (var content in ViewBag.contents)
+                    {
+                        if (content.Name == "text-box-6")
+                        {
+                            uniqueIdentifier = content.Id;
+                            <img src=@content.PhotoName />
+                            <div class="row2-image-text">
+                                <p class="row2-text">@content.Text</p>
+                                <p class="row2-text-bold">@content.Text2</p>
+                                <div class="row2-admin-edit">
+                                    <form method="post" action="/home/AdminEdit">
+                                        <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
+                                        <button class="edit-row-2" type="submit">Edit</button>
+                                    </form>
+                                </div>
+                            </div>
+
+
+                        }
+
+                    }
+                </div>
+                <div class="large-4 medium-12 image-center">
+                    @foreach (var content in ViewBag.contents)
+                    {
+                        if (content.Name == "text-box-7")
+                        {
+                            uniqueIdentifier = content.Id;
+                            <img src=@content.PhotoName />
+                            <div class="row2-image-text">
+                                <p class="row2-text">@content.Text</p>
+                                <p class="row2-text-bold">@content.Text2</p>
+                                <div class="row2-admin-edit">
+                                    <form method="post" action="/home/AdminEdit">
+                                        <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
+                                        <button class="edit-row-2" type="submit">Edit</button>
+                                    </form>
+                                </div>
+                            </div>
+
+
+                        }
+
+                    }
+                </div>
+            </div>
+            <div class="view-offer-button-admin">
+                <button class="home-button">View All Offers</button>
+            </div>
+        </div>
+
+        <div class="small-12 home-grid-one home-grid-three grid-container">
+            <p class="row3-title-text">Product Categories</p>
+            <div class="grid-x grid-container center-div home-grid-one">
+                <div class="cell large-3 medium-6 small-6 image-test">
+                    @foreach (var content in ViewBag.contents)
+                    {
+                        if (content.Name == "text-box-8")
+                        {
+                            uniqueIdentifier = content.Id;
+
+                            <img class="image-test" src="@content.PhotoName" />
+                            <p>@content.Text</p>
+                            <div class="row3-admin-edit">
+                                <form method="post" action="/home/AdminEdit">
+                                    <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
+                                    <button class="edit-row-2" type="submit">Edit</button>
+                                </form>
+                            </div>
+
+                        }
+
+                    }
+                </div>
+                <div class="cell large-3 medium-6 small-6 image-test">
+                    @foreach (var content in ViewBag.contents)
+                    {
+                        if (content.Name == "text-box-9")
+                        {
+                            uniqueIdentifier = content.Id;
+                            <img class="image-test" src="@content.PhotoName" />
+                            <p>@content.Text</p>
+                            <div class="row3-admin-edit">
+                                <form method="post" action="/home/AdminEdit">
+                                    <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
+                                    <button class="edit-row-2" type="submit">Edit</button>
+                                </form>
+                            </div>
+
+                        }
+
+                    }
+                </div>
+                <div class="cell large-3 medium-6 small-6 image-test">
+                    @foreach (var content in ViewBag.contents)
+                    {
+                        if (content.Name == "text-box-10")
+                        {
+                            uniqueIdentifier = content.Id;
+                            <img class="image-test" src="@content.PhotoName" />
+                            <p>@content.Text</p>
+                            <div class="row3-admin-edit">
+                                <form method="post" action="/home/AdminEdit">
+                                    <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
+                                    <button class="edit-row-2" type="submit">Edit</button>
+                                </form>
+                            </div>
+                        }
+
+                    }
+                </div>
+                <div class="cell large-3 medium-6 small-6 image-test">
+                    @foreach (var content in ViewBag.contents)
+                    {
+                        if (content.Name == "text-box-11")
+                        {
+
+                            uniqueIdentifier = content.Id;
+                            <img class="image-test" src="@content.PhotoName" />
+                            <p>@content.Text</p>
+                            <div class="row3-admin-edit">
+                                <form method="post" action="/home/AdminEdit">
+                                    <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
+                                    <button class="edit-row-2" type="submit">Edit</button>
+                                </form>
+                            </div>
+
+                        }
+
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
