@@ -1,7 +1,20 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connection = builder.Configuration.GetConnectionString("local");
+if (string.IsNullOrEmpty(connection))
+{
+    throw new InvalidOperationException("Database connection string 'local' is not configured.");
+}
+
+// Configure PostgreSQL
+builder.Services.AddDbContext<VertoTest.Models.ContentContext>(options =>
+    options.UseNpgsql(connection));
+
 
 var app = builder.Build();
 

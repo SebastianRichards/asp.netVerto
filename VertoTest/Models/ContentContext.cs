@@ -4,10 +4,15 @@ namespace VertoTest.Models
 {
 	public class ContentContext : DbContext
 	{
-		
+		public ContentContext()
+		{
+		}
+
+		public ContentContext(DbContextOptions<ContentContext> options) : base(options)
+		{
+		}
+
 		public DbSet<ContentModel> Content { get; set; }
-		
-		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseSqlite(@"Data Source=data");
 		
 	}
 }

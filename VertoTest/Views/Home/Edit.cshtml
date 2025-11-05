@@ -1,57 +1,89 @@
-﻿@page
-
-
-@model VertoTest.Models.ContentModel
+﻿@model VertoTest.Models.ContentModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 @{
-    //ContentModel content = TempData["contentTemp"] as ContentModel;
+    Layout = "_Layout";
+    ViewData["Title"] = "Edit Content";
 }
 
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-<div class="grid-x">
+@section Scripts {
+    <script>
+        // Add edit-page class to body
+        document.body.classList.add('edit-page');
+    </script>
+}
 
+<div class="grid-x edit-container">
 
-
-
-
+@if (ViewBag.contents != null && ViewBag.idNumber != null)
+{
+    bool contentFound = false;
+    
     @foreach (var content in ViewBag.contents)
     {
         if (content.Id == ViewBag.idNumber)
         {
+            contentFound = true;
             <div class="small-12 center-edit">
                 <div class="edit-image"><img class="edit-image" src="@content.PhotoName" /></div>
             </div>
             <div class="small-12 center-edit">
-                <form asp-action="submitChanges" asp-controller="home" method="post" enctype="multipart/form-data">
-                    <div >
+                <form asp-action="submitChanges" asp-controller="home" method="post" enctype="multipart/form-data" class="edit-form">
+                    <div class="form-fields">
 
+                        <label for="file" class="form-label">Upload Image:</label>
                         <input class="file-upload" type="file" id="file" name="file" value=".">
-                        <div>Text:</div>
+                        
+                        <label for="text" class="form-label">Text:</label>
                         <input value="@content.Text" name="text" placeholder="enter text" class="text-box-edit" />
                         <input type="hidden" name="id" value="@content.Id" />
 
 
                         @if (content.Text2 != ".")
                         {
-                            <div>Bold-Text:</div>
-                            <input value="@content.Text2" name="text2" placeholder="enter text" class="text-box-edit" />
+                            <label for="text2" class="form-label">Bold Text:</label>
+                            <input value="@content.Text2" name="text2" placeholder="enter bold text" class="text-box-edit" />
                         }
                         else
                         {
-                            <input type="hidden" name="text2" value="@content.Text2" />}
+                            <input type="hidden" name="text2" value="@content.Text2" />
+                        }
 
                     </div>
-                    <button class="submit-button" type="submit">Submit</button>
+                    <div class="submit-container">
+                        <button class="submit-button" type="submit">Submit Changes</button>
+                    </div>
                     
                 </form>
             </div>
-
-
-
-
-
         }
     }
+    
+    @if (!contentFound)
+    {
+        <div class="small-12 center-edit">
+            <div class="alert alert-warning" style="background-color: #fff3cd; border-color: #ffeaa7; color: #856404; padding: 20px; margin: 20px; border-radius: 5px; text-align: center;">
+                <h3>Content Not Found</h3>
+                <p>The content item with ID @ViewBag.idNumber was not found.</p>
+                <a href="/Home/AdminView" class="btn btn-primary" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Back to Admin</a>
+            </div>
+        </div>
+    }
+}
+else
+{
+    <div class="small-12 center-edit">
+        <div class="alert alert-danger" style="background-color: #f8d7da; border-color: #f5c6cb; color: #721c24; padding: 20px; margin: 20px; border-radius: 5px; text-align: center;">
+            <h3>No Content Available</h3>
+            <p>No content data is available. Please ensure the database is properly initialized.</p>
+            <a href="/Home/AdminView" class="btn btn-primary" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Back to Admin</a>
+            <br><br>
+            <form method="post" action="/Home/SeedInitialData" style="display: inline;">
+                <button type="submit" class="btn btn-success" style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Create Initial Data</button>
+            </form>
+        </div>
+    </div>
+}
 
 
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sebastianrichards/Projects/VertoTest/VertoTest/VertoTest.csproj": {}
+    "/Users/sebastianrichards/Website2025/verto/asp.netVerto/VertoTest/VertoTest.csproj": {}
   },
   "projects": {
-    "/Users/sebastianrichards/Projects/VertoTest/VertoTest/VertoTest.csproj": {
+    "/Users/sebastianrichards/Website2025/verto/asp.netVerto/VertoTest/VertoTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/VertoTest.csproj",
+        "projectUniqueName": "/Users/sebastianrichards/Website2025/verto/asp.netVerto/VertoTest/VertoTest.csproj",
         "projectName": "VertoTest",
-        "projectPath": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/VertoTest.csproj",
+        "projectPath": "/Users/sebastianrichards/Website2025/verto/asp.netVerto/VertoTest/VertoTest.csproj",
         "packagesPath": "/Users/sebastianrichards/.nuget/packages/",
-        "outputPath": "/Users/sebastianrichards/Projects/VertoTest/VertoTest/obj/",
+        "outputPath": "/Users/sebastianrichards/Website2025/verto/asp.netVerto/VertoTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sebastianrichards/.nuget/NuGet/NuGet.Config"
@@ -32,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
@@ -40,23 +46,27 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.8, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.8, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[7.0.8, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.8, )"
+              "version": "[7.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "System.Data.SQLite.Core": {
               "target": "Package",
@@ -74,6 +84,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -82,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }

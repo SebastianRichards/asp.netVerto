@@ -90,17 +90,19 @@
         <div class="small-12 home-grid-two grid-container home-grid-one">
             <p class="special-offer-text">Special Offers</p>
             <div class="grid-x text-image-box">
-                <div class="large-4 medium-12 image-center">
+                <div class="large-4 medium-12 image-center row2-outer-div" style="position: relative;">
                     @foreach (var content in ViewBag.contents)
                     {
                         if (content.Name == "text-box-5")
                         {
-                            
-                            <img src=@content.PhotoName />
-                            <div class="row2-image-text">
-                                <p class="row2-text">@content.Text</p>
-                                <p class="row2-text-bold">@content.Text2</p>
+                            <div class="row2-div-holder">
+                                <img src=@content.PhotoName style="width: 100%"/>
+                                <div class="row2-image-text">
+                                    <p class="row2-text">@content.Text</p>
+                                    <p class="row2-text-bold">@content.Text2</p>
+                                </div>
                             </div>
+                            
                            
 
                         }
@@ -108,34 +110,39 @@
                     }
                     
                 </div>
-                <div class="large-4 medium-12 image-center">
+                <div class="large-4 medium-12 image-center row2-outer-div" style="position: relative">
                     @foreach (var content in ViewBag.contents)
                     {
                         if (content.Name == "text-box-6")
                         {
-
-                            <img src=@content.PhotoName />
-                            <div class="row2-image-text">
-                                <p class="row2-text">@content.Text</p>
-                                <p class="row2-text-bold">@content.Text2</p>
+                            <div class="row2-div-holder">
+                                <img src=@content.PhotoName style="width: 100%"/>
+                                <div class="row2-image-text">
+                                    <p class="row2-text">@content.Text</p>
+                                    <p class="row2-text-bold">@content.Text2</p>
+                                </div>
                             </div>
+
+                            
 
 
                         }
                             
                     }
                 </div>
-                <div class="large-4 medium-12 image-center">
+                <div class="large-4 medium-12 image-center row2-outer-div" style="position: relative;">
                     @foreach (var content in ViewBag.contents)
                     {
                         if (content.Name == "text-box-7")
                         {
-
-                            <img src=@content.PhotoName />
-                            <div class="row2-image-text">
-                                <p class="row2-text">@content.Text</p>
-                                <p class="row2-text-bold">@content.Text2</p>
+                            <div class="row2-div-holder">
+                                <img src=@content.PhotoName style="width: 100%;"/>
+                                <div class="row2-image-text">
+                                    <p class="row2-text">@content.Text</p>
+                                    <p class="row2-text-bold">@content.Text2</p>
+                                </div>
                             </div>
+                            
 
 
                         }
