@@ -208,17 +208,17 @@ public class HomeController : Controller
             // Define default content for each text box
             var defaultContent = new Dictionary<string, (string text, string text2, string photoName)>
             {
-                { "text-box-1", ("Discover our latest products and innovations in optical technology.", "", "/../static/products-image.jpeg") },
-                { "text-box-2", ("Join us at upcoming field events and demonstrations.", "", "/../static/field-events-image.jpeg") },
-                { "text-box-3", ("Stay updated with the latest news and product reviews.", "", "/../static/latest-news-image.jpeg") },
-                { "text-box-4", ("Browse our gallery of stunning optical images.", "", "/../static/gallery-image.jpeg") },
-                { "text-box-5", ("Special discount on premium binoculars this month.", "Save 20%", "/../static/row2image1.png") },
-                { "text-box-6", ("Free shipping on orders over $200.", "Limited Time", "/../static/row2image2.png") },
-                { "text-box-7", ("Exclusive bundle deals for professionals.", "Professional Series", "/../static/row2image3.png") },
-                { "text-box-8", ("Binoculars", "", "/../static/bin-1.jpeg") },
-                { "text-box-9", ("Telescopes", "", "/../static/bin-2.jpeg") },
-                { "text-box-10", ("Spotting Scopes", "", "/../static/bin-3.jpeg") },
-                { "text-box-11", ("Accessories", "", "/../static/bin-4.jpeg") }
+                { "text-box-1", ("Discover our latest products and innovations in optical technology.", "", "~/static/products-image.jpeg") },
+                { "text-box-2", ("Join us at upcoming field events and demonstrations.", "", "~/static/field-events-image.jpeg") },
+                { "text-box-3", ("Stay updated with the latest news and product reviews.", "", "~/static/latest-news-image.jpeg") },
+                { "text-box-4", ("Browse our gallery of stunning optical images.", "", "~/static/gallery-image.jpeg") },
+                { "text-box-5", ("Special discount on premium binoculars this month.", "Save 20%", "~/static/row2image1.png") },
+                { "text-box-6", ("Free shipping on orders over $200.", "Limited Time", "~/static/row2image2.png") },
+                { "text-box-7", ("Exclusive bundle deals for professionals.", "Professional Series", "~/static/row2image3.png") },
+                { "text-box-8", ("Binoculars", "", "~/static/bin-1.jpeg") },
+                { "text-box-9", ("Telescopes", "", "~/static/bin-2.jpeg") },
+                { "text-box-10", ("Spotting Scopes", "", "~/static/bin-3.jpeg") },
+                { "text-box-11", ("Accessories", "", "~/static/bin-4.jpeg") }
             };
 
             // Reset each content item to default values
@@ -254,17 +254,17 @@ public class HomeController : Controller
             // Create initial content items
             var initialContent = new List<ContentModel>
             {
-                new ContentModel { Name = "text-box-1", Text = "Discover our latest products and innovations in optical technology.", Text2 = "", PhotoName = "/../static/products-image.jpeg" },
-                new ContentModel { Name = "text-box-2", Text = "Join us at upcoming field events and demonstrations.", Text2 = "", PhotoName = "/../static/field-events-image.jpeg" },
-                new ContentModel { Name = "text-box-3", Text = "Stay updated with the latest news and product reviews.", Text2 = "", PhotoName = "/../static/latest-news-image.jpeg" },
-                new ContentModel { Name = "text-box-4", Text = "Browse our gallery of stunning optical images.", Text2 = "", PhotoName = "/../static/gallery-image.jpeg" },
-                new ContentModel { Name = "text-box-5", Text = "Special discount on premium binoculars this month.", Text2 = "Save 20%", PhotoName = "/../static/row2image1.png" },
-                new ContentModel { Name = "text-box-6", Text = "Free shipping on orders over $200.", Text2 = "Limited Time", PhotoName = "/../static/row2image2.png" },
-                new ContentModel { Name = "text-box-7", Text = "Exclusive bundle deals for professionals.", Text2 = "Professional Series", PhotoName = "/../static/row2image3.png" },
-                new ContentModel { Name = "text-box-8", Text = "Binoculars", Text2 = "", PhotoName = "/../static/bin-1.jpeg" },
-                new ContentModel { Name = "text-box-9", Text = "Telescopes", Text2 = "", PhotoName = "/../static/bin-2.jpeg" },
-                new ContentModel { Name = "text-box-10", Text = "Spotting Scopes", Text2 = "", PhotoName = "/../static/bin-3.jpeg" },
-                new ContentModel { Name = "text-box-11", Text = "Accessories", Text2 = "", PhotoName = "/../static/bin-4.jpeg" }
+                new ContentModel { Name = "text-box-1", Text = "Discover our latest products and innovations in optical technology.", Text2 = "", PhotoName = "~/static/products-image.jpeg" },
+                new ContentModel { Name = "text-box-2", Text = "Join us at upcoming field events and demonstrations.", Text2 = "", PhotoName = "~/static/field-events-image.jpeg" },
+                new ContentModel { Name = "text-box-3", Text = "Stay updated with the latest news and product reviews.", Text2 = "", PhotoName = "~/static/latest-news-image.jpeg" },
+                new ContentModel { Name = "text-box-4", Text = "Browse our gallery of stunning optical images.", Text2 = "", PhotoName = "~/static/gallery-image.jpeg" },
+                new ContentModel { Name = "text-box-5", Text = "Special discount on premium binoculars this month.", Text2 = "Save 20%", PhotoName = "~/static/row2image1.png" },
+                new ContentModel { Name = "text-box-6", Text = "Free shipping on orders over $200.", Text2 = "Limited Time", PhotoName = "~/static/row2image2.png" },
+                new ContentModel { Name = "text-box-7", Text = "Exclusive bundle deals for professionals.", Text2 = "Professional Series", PhotoName = "~/static/row2image3.png" },
+                new ContentModel { Name = "text-box-8", Text = "Binoculars", Text2 = "", PhotoName = "~/static/bin-1.jpeg" },
+                new ContentModel { Name = "text-box-9", Text = "Telescopes", Text2 = "", PhotoName = "~/static/bin-2.jpeg" },
+                new ContentModel { Name = "text-box-10", Text = "Spotting Scopes", Text2 = "", PhotoName = "~/static/bin-3.jpeg" },
+                new ContentModel { Name = "text-box-11", Text = "Accessories", Text2 = "", PhotoName = "~/static/bin-4.jpeg" }
             };
 
         // Add all content to database
