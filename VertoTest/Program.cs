@@ -18,6 +18,9 @@ builder.Services.AddDbContext<VertoTest.Models.ContentContext>(options =>
 
 var app = builder.Build();
 
+// Configure the app to work under /verto path
+app.UsePathBase("/verto");
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
