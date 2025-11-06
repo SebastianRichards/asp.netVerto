@@ -25,10 +25,10 @@
         {
             contentFound = true;
             <div class="small-12 center-edit">
-                <div class="edit-image"><img class="edit-image" src="@content.PhotoName" /></div>
+                <div class="edit-image"><img class="edit-image" src="@("/verto/" + content.PhotoName)" /></div>
             </div>
             <div class="small-12 center-edit">
-                <form asp-action="submitChanges" asp-controller="home" method="post" enctype="multipart/form-data" class="edit-form">
+                <form action="/verto/home/submitChanges" method="post" enctype="multipart/form-data" class="edit-form">
                     <div class="form-fields">
 
                         <label for="file" class="form-label">Upload Image:</label>
@@ -65,7 +65,7 @@
             <div class="alert alert-warning" style="background-color: #fff3cd; border-color: #ffeaa7; color: #856404; padding: 20px; margin: 20px; border-radius: 5px; text-align: center;">
                 <h3>Content Not Found</h3>
                 <p>The content item with ID @ViewBag.idNumber was not found.</p>
-                <a href="/Home/AdminView" class="btn btn-primary" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Back to Admin</a>
+                <a href="/verto/Home/AdminView" class="btn btn-primary" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Back to Admin</a>
             </div>
         </div>
     }
@@ -76,9 +76,9 @@ else
         <div class="alert alert-danger" style="background-color: #f8d7da; border-color: #f5c6cb; color: #721c24; padding: 20px; margin: 20px; border-radius: 5px; text-align: center;">
             <h3>No Content Available</h3>
             <p>No content data is available. Please ensure the database is properly initialized.</p>
-            <a href="/Home/AdminView" class="btn btn-primary" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Back to Admin</a>
+            <a href="/verto/Home/AdminView" class="btn btn-primary" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Back to Admin</a>
             <br><br>
-            <form method="post" action="/Home/SeedInitialData" style="display: inline;">
+            <form method="post" action="/verto/Home/SeedInitialData" style="display: inline;">
                 <button type="submit" class="btn btn-success" style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Create Initial Data</button>
             </form>
         </div>
