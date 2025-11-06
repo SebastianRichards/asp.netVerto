@@ -10,13 +10,13 @@
             <button class="carousel-button next" data-carousel-button="next">&#8702;</button>
             <ul data-slides>
                 <li class="slide" data-active>
-                    <img src="~/static/birdbanner3.png" alt="img1" />
+                    <img src="@Url.Content("~/static/birdbanner3.png")" alt="img1" />
                 </li>
                 <li class="slide">
-                    <img src="~/static/birdbanner2.jpeg" alt="img2" />
+                    <img src="@Url.Content("~/static/birdbanner2.jpeg")" alt="img2" />
                 </li>
                 <li class="slide">
-                    <img src="~/static/birdbanner1.jpeg" alt="img3" />
+                    <img src="@Url.Content("~/static/birdbanner1.jpeg")" alt="img3" />
                 </li>
         
 
@@ -34,7 +34,7 @@
                     if (content.Name == "text-box-1")
                     {
                         <div class="image-row-1">
-                            <img class="image-row-1" src="@content.PhotoName" />
+                            <img class="image-row-1" src="@Url.Content("~/" + content.PhotoName)" />
                         </div>
                         <p>@content.Text</p>}
                 }
@@ -48,7 +48,7 @@
                     if (content.Name == "text-box-2")
                     {
                         <div class="image-row-1">
-                            <img class="image-row-1" src="@content.PhotoName" />
+                            <img class="image-row-1" src="@Url.Content("~/" + content.PhotoName)" />
                         </div>
                         <p>@content.Text</p>}
                 }
@@ -62,7 +62,7 @@
                     if (content.Name == "text-box-3")
                     {
                         <div class="image-row-1">
-                            <img class="image-row-1" src="@content.PhotoName" />
+                            <img class="image-row-1" src="@Url.Content("~/" + content.PhotoName)" />
                         </div>
                         <p>@content.Text</p>}
                 }
@@ -76,7 +76,7 @@
                     if (content.Name == "text-box-4")
                     {
                         <div class="image-row-1">
-                            <img class="image-row-1" src="@content.PhotoName" />
+                            <img class="image-row-1" src="@Url.Content("~/" + content.PhotoName)" />
                         </div>
                         <p>@content.Text</p>}
                 }
@@ -96,7 +96,7 @@
                         if (content.Name == "text-box-5")
                         {
                             <div class="row2-div-holder">
-                                <img src=@content.PhotoName style="width: 100%"/>
+                                <img src="@Url.Content("~/" + content.PhotoName)" style="width: 100%"/>
                                 <div class="row2-image-text">
                                     <p class="row2-text">@content.Text</p>
                                     <p class="row2-text-bold">@content.Text2</p>
@@ -116,7 +116,7 @@
                         if (content.Name == "text-box-6")
                         {
                             <div class="row2-div-holder">
-                                <img src=@content.PhotoName style="width: 100%"/>
+                                <img src="@Url.Content("~/" + content.PhotoName)" style="width: 100%"/>
                                 <div class="row2-image-text">
                                     <p class="row2-text">@content.Text</p>
                                     <p class="row2-text-bold">@content.Text2</p>
@@ -136,7 +136,7 @@
                         if (content.Name == "text-box-7")
                         {
                             <div class="row2-div-holder">
-                                <img src=@content.PhotoName style="width: 100%;"/>
+                                <img src="@Url.Content("~/" + content.PhotoName)" style="width: 100%;"/>
                                 <div class="row2-image-text">
                                     <p class="row2-text">@content.Text</p>
                                     <p class="row2-text-bold">@content.Text2</p>
@@ -164,7 +164,7 @@
                         if (content.Name == "text-box-8")
                         {
 
-                            <img class="image-test" src="@content.PhotoName" />
+                            <img class="image-test" src="@Url.Content("~/" + content.PhotoName)" />
                             <p>@content.Text</p>
 
                         }
@@ -178,7 +178,7 @@
                         if (content.Name == "text-box-9")
                         {
 
-                            <img class="image-test" src="@content.PhotoName" />
+                            <img class="image-test" src="@Url.Content("~/" + content.PhotoName)" />
                             <p>@content.Text</p>
 
                         }
@@ -191,7 +191,7 @@
                         if (content.Name == "text-box-10")
                         {
 
-                            <img class="image-test" src="@content.PhotoName" />
+                            <img class="image-test" src="@Url.Content("~/" + content.PhotoName)" />
                             <p>@content.Text</p>
 
                         }
@@ -204,7 +204,7 @@
                         if (content.Name == "text-box-11")
                         {
 
-                            <img class="image-test" src="@content.PhotoName" />
+                            <img class="image-test" src="@Url.Content("~/" + content.PhotoName)" />
                             <p>@content.Text</p>
 
                         }
