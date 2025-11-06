@@ -160,7 +160,7 @@ public class HomeController : Controller
     {
         _logger.LogError(ex, "Error saving changes for content ID: {ContentId}", id);
         TempData["ErrorMessage"] = "An error occurred while saving changes: " + ex.Message;
-        return RedirectToAction("AdminView");
+        return Redirect("/verto/Home/AdminView");
     }
 }
 
@@ -185,7 +185,7 @@ public class HomeController : Controller
             {
                 _logger.LogWarning($"Content with ID {idNumber} not found");
                 TempData["ErrorMessage"] = $"Content with ID {idNumber} not found.";
-                return RedirectToAction("AdminView");
+                return Redirect("/verto/Home/AdminView");
             }
 
             _logger.LogInformation($"Rendering Edit view for content ID: {idNumber}");
@@ -195,7 +195,7 @@ public class HomeController : Controller
         {
             _logger.LogError(ex, $"Error in AdminEdit for idNumber: {idNumber}");
             TempData["ErrorMessage"] = "An error occurred while loading the edit page: " + ex.Message;
-            return RedirectToAction("AdminView");
+            return Redirect("/verto/Home/AdminView");
         }
     }
 
@@ -238,7 +238,7 @@ public class HomeController : Controller
 
         // Redirect back to admin view with success message
         TempData["SuccessMessage"] = "All content has been reset to default values successfully!";
-        return RedirectToAction("AdminView");
+        return Redirect("/verto/Home/AdminView");
     }
 
     [HttpPost]
@@ -248,7 +248,7 @@ public class HomeController : Controller
         if (_context.Content.Any())
         {
             TempData["InfoMessage"] = "Database already contains content. Use 'Reset to Default' to restore default values.";
-            return RedirectToAction("AdminView");
+            return Redirect("/verto/Home/AdminView");
         }
 
             // Create initial content items
@@ -272,7 +272,7 @@ public class HomeController : Controller
         _context.SaveChanges();
 
         TempData["SuccessMessage"] = "Initial content has been created successfully!";
-        return RedirectToAction("AdminView");
+        return Redirect("/verto/Home/AdminView");
     }
 
     
