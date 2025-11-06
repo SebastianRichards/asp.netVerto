@@ -70,7 +70,7 @@ public class HomeController : Controller
     {
         _context.Add(entry);
         _context.SaveChanges();
-        return View("Index");
+        return Redirect("/verto/Home/Index");
     }
 
 
@@ -154,7 +154,7 @@ public class HomeController : Controller
         }
         
         TempData["SuccessMessage"] = "Changes saved successfully!";
-        return View("Index");
+        return Redirect("/verto/Home/Index");
     }
     catch (Exception ex)
     {
