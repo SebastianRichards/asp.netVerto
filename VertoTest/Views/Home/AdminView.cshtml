@@ -46,13 +46,13 @@
 <div class="admin-controls" style="text-align: center; margin: 20px 0; padding: 20px; background-color: #f8f9fa; border-radius: 5px;">
     <h2 style="margin-bottom: 15px; color: #333;">Admin Controls</h2>
     
-    <form method="post" action="/Home/SeedInitialData" style="display: inline; margin-right: 10px;">
+    <form method="post" action="/verto/Home/SeedInitialData" style="display: inline; margin-right: 10px;">
         <button type="submit" class="seed-data-button" style="background-color: #28a745; color: white; border: none; padding: 12px 24px; border-radius: 5px; font-size: 16px; cursor: pointer; margin: 5px;">
             🌱 Create Initial Data
         </button>
     </form>
     
-    <form method="post" action="/Home/ResetToDefault" style="display: inline;" onsubmit="return confirm('Are you sure you want to reset all content to default values? This action cannot be undone.');">
+    <form method="post" action="/verto/Home/ResetToDefault" style="display: inline;" onsubmit="return confirm('Are you sure you want to reset all content to default values? This action cannot be undone.');">
         <button type="submit" class="reset-default-button" style="background-color: #dc3545; color: white; border: none; padding: 12px 24px; border-radius: 5px; font-size: 16px; cursor: pointer; margin: 5px;">
             🔄 Reset to Default
         </button>
@@ -107,7 +107,7 @@
 
 
                 <button class="home-button" type="button">New Products</button>
-                <form method="post" action="/home/AdminEdit">
+                <form method="post" action="/verto/home/AdminEdit">
                     <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
                     <button class="edit-button" type="submit">Edit</button>
                 </form>
@@ -130,7 +130,7 @@
                         }
                 }
                 <button class="home-button" type="button">View Events</button>
-                <form method="post" action="/home/AdminEdit">
+                <form method="post" action="/verto/home/AdminEdit">
                     <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
                     <button class="edit-button" type="submit">Edit</button>
                 </form>
@@ -152,7 +152,7 @@
                         }
                 }
                 <button class="home-button" type="button">Read Article</button>
-                <form method="post" action="/home/AdminEdit">
+                <form method="post" action="/verto/home/AdminEdit">
                     <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
                     <button class="edit-button" type="submit">Edit</button>
                 </form>
@@ -172,7 +172,7 @@
                         <p>@content.Text</p>}
                 }
                 <button class="home-button" type="button">View Gallery</button>
-                <form method="post" action="/home/AdminEdit">
+                <form method="post" action="/verto/home/AdminEdit">
                     <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
                     <button class="edit-button" type="submit">Edit</button>
                 </form>
@@ -198,7 +198,7 @@
                                     <p class="row2-text-bold">@content.Text2</p>
 
                                     <div class="row2-admin-edit">
-                                        <form method="post" action="/home/AdminEdit">
+                                        <form method="post" action="/verto/home/AdminEdit">
                                             <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
                                             <button class="edit-row-2" type="submit">Edit</button>
                                         </form>
@@ -224,7 +224,7 @@
                                     <p class="row2-text">@content.Text</p>
                                     <p class="row2-text-bold">@content.Text2</p>
                                     <div class="row2-admin-edit">
-                                        <form method="post" action="/home/AdminEdit">
+                                        <form method="post" action="/verto/home/AdminEdit">
                                             <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
                                             <button class="edit-row-2" type="submit">Edit</button>
                                         </form>
@@ -250,7 +250,7 @@
                                     <p class="row2-text">@content.Text</p>
                                     <p class="row2-text-bold">@content.Text2</p>
                                     <div class="row2-admin-edit">
-                                        <form method="post" action="/home/AdminEdit">
+                                        <form method="post" action="/verto/home/AdminEdit">
                                             <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
                                             <button class="edit-row-2" type="submit">Edit</button>
                                         </form>
@@ -283,7 +283,7 @@
                             <img class="image-test" src="@("/verto/" + content.PhotoName)" />
                             <p>@content.Text</p>
                             <div class="row3-admin-edit">
-                                <form method="post" action="/home/AdminEdit">
+                                <form method="post" action="/verto/home/AdminEdit">
                                     <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
                                     <button class="edit-row-2" type="submit">Edit</button>
                                 </form>
@@ -302,7 +302,7 @@
                             <img class="image-test" src="@("/verto/" + content.PhotoName)" />
                             <p>@content.Text</p>
                             <div class="row3-admin-edit">
-                                <form method="post" action="/home/AdminEdit">
+                                <form method="post" action="/verto/home/AdminEdit">
                                     <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
                                     <button class="edit-row-2" type="submit">Edit</button>
                                 </form>
@@ -321,7 +321,7 @@
                             <img class="image-test" src="@("/verto/" + content.PhotoName)" />
                             <p>@content.Text</p>
                             <div class="row3-admin-edit">
-                                <form method="post" action="/home/AdminEdit">
+                                <form method="post" action="/verto/home/AdminEdit">
                                     <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
                                     <button class="edit-row-2" type="submit">Edit</button>
                                 </form>
@@ -340,7 +340,7 @@
                             <img class="image-test" src="@("/verto/" + content.PhotoName)" />
                             <p>@content.Text</p>
                             <div class="row3-admin-edit">
-                                <form method="post" action="/home/AdminEdit">
+                                <form method="post" action="/verto/home/AdminEdit">
                                     <input type="hidden" name="idNumber" value="@uniqueIdentifier" />
                                     <button class="edit-row-2" type="submit">Edit</button>
                                 </form>
