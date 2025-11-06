@@ -72,13 +72,13 @@
             <button class="carousel-button next" data-carousel-button="next">&#8702;</button>
             <ul data-slides>
                 <li class="slide" data-active>
-                    <img src="@Url.Content("~/static/birdbanner3.png")" alt="img1" />
+                    <img src="/verto/static/birdbanner3.png" alt="img1" />
                 </li>
                 <li class="slide">
-                    <img src="@Url.Content("~/static/birdbanner2.jpeg")" alt="img2" />
+                    <img src="/verto/static/birdbanner2.jpeg" alt="img2" />
                 </li>
                 <li class="slide">
-                    <img src="@Url.Content("~/static/birdbanner1.jpeg")" alt="img3" />
+                    <img src="/verto/static/birdbanner1.jpeg" alt="img3" />
                 </li>
 
 
@@ -97,7 +97,7 @@
                     if (content.Name == "text-box-1")
                     {
                         <div class="image-row-1">
-                            <img class="image-row-1" src="@Url.Content("~/" + content.PhotoName)" />
+                            <img class="image-row-1" src="@("/verto/" + content.PhotoName)" />
                             
                         </div>
                         <p>@content.Text</p>
@@ -122,7 +122,7 @@
                     if (content.Name == "text-box-2")
                     {
                         <div class="image-row-1">
-                            <img class="image-row-1" src="@Url.Content("~/" + content.PhotoName)" />
+                            <img class="image-row-1" src="@("/verto/" + content.PhotoName)" />
 
                         </div>
                         uniqueIdentifier = content.Id;
@@ -144,7 +144,7 @@
                     {
 
                         <div class="image-row-1">
-                            <img class="image-row-1" src="@Url.Content("~/" + content.PhotoName)" />
+                            <img class="image-row-1" src="@("/verto/" + content.PhotoName)" />
 
                         </div>
                         uniqueIdentifier = content.Id;
@@ -165,7 +165,7 @@
                     if (content.Name == "text-box-4")
                     {
                         <div class="image-row-1">
-                            <img class="image-row-1" src="@Url.Content("~/" + content.PhotoName)" />
+                            <img class="image-row-1" src="@("/verto/" + content.PhotoName)" />
 
                         </div>
                         uniqueIdentifier = content.Id;
@@ -192,7 +192,7 @@
                         {
                             uniqueIdentifier = content.Id;
                             <div class="row2-div-holder">
-                                <img src="@Url.Content("~/" + content.PhotoName)" style="width: 100%;"/>
+                                <img src="@("/verto/" + content.PhotoName)" style="width: 100%;"/>
                                 <div class="row2-image-text">
                                     <p class="row2-text">@content.Text</p>
                                     <p class="row2-text-bold">@content.Text2</p>
@@ -219,7 +219,7 @@
                         {
                             uniqueIdentifier = content.Id;
                             <div class="row2-div-holder">
-                                <img src="@Url.Content("~/" + content.PhotoName)" style="width: 100%;"/>
+                                <img src="@("/verto/" + content.PhotoName)" style="width: 100%;"/>
                                 <div class="row2-image-text">
                                     <p class="row2-text">@content.Text</p>
                                     <p class="row2-text-bold">@content.Text2</p>
@@ -245,7 +245,7 @@
                         {
                             uniqueIdentifier = content.Id;
                             <div class="row2-div-holder">
-                                <img src="@Url.Content("~/" + content.PhotoName)" style="width: 100%;"/>
+                                <img src="@("/verto/" + content.PhotoName)" style="width: 100%;"/>
                                 <div class="row2-image-text">
                                     <p class="row2-text">@content.Text</p>
                                     <p class="row2-text-bold">@content.Text2</p>
@@ -280,7 +280,7 @@
                         {
                             uniqueIdentifier = content.Id;
 
-                            <img class="image-test" src="@Url.Content("~/" + content.PhotoName)" />
+                            <img class="image-test" src="@("/verto/" + content.PhotoName)" />
                             <p>@content.Text</p>
                             <div class="row3-admin-edit">
                                 <form method="post" action="/home/AdminEdit">
@@ -299,7 +299,7 @@
                         if (content.Name == "text-box-9")
                         {
                             uniqueIdentifier = content.Id;
-                            <img class="image-test" src="@Url.Content("~/" + content.PhotoName)" />
+                            <img class="image-test" src="@("/verto/" + content.PhotoName)" />
                             <p>@content.Text</p>
                             <div class="row3-admin-edit">
                                 <form method="post" action="/home/AdminEdit">
@@ -318,7 +318,7 @@
                         if (content.Name == "text-box-10")
                         {
                             uniqueIdentifier = content.Id;
-                            <img class="image-test" src="@Url.Content("~/" + content.PhotoName)" />
+                            <img class="image-test" src="@("/verto/" + content.PhotoName)" />
                             <p>@content.Text</p>
                             <div class="row3-admin-edit">
                                 <form method="post" action="/home/AdminEdit">
@@ -337,7 +337,7 @@
                         {
 
                             uniqueIdentifier = content.Id;
-                            <img class="image-test" src="@Url.Content("~/" + content.PhotoName)" />
+                            <img class="image-test" src="@("/verto/" + content.PhotoName)" />
                             <p>@content.Text</p>
                             <div class="row3-admin-edit">
                                 <form method="post" action="/home/AdminEdit">
